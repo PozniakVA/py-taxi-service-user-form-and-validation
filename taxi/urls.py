@@ -77,7 +77,7 @@ urlpatterns = [
         name="driver-list"
     ),
     path(
-        "drivers/crate/",
+        "drivers/create/",
         DriverCreateView.as_view(),
         name="driver-create"
     ),
